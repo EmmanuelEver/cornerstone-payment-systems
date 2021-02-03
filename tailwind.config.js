@@ -13,6 +13,9 @@ module.exports = {
       },
       fontFamily: {
         primary : ["Lato",]
+      },
+      screens:{
+        xxl: '1440px',
       }
     },
   },
