@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
+
+@layer utilities {
+	.grid-auto-fill {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	}
+
+	.max {
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+}
