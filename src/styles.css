@@ -12,6 +12,11 @@
 		grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
 	}
 
+	.grid-int {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+	}
+
 	.max {
 		max-width: 1440px;
 		margin: 0 auto;
