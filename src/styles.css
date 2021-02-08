@@ -2,4 +2,72 @@
 
 @tailwind base;
 @tailwind components;
+
+
+
 @tailwind utilities;
+
+@layer utilities {
+	.grid-auto-fill {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	}
+
+	.grid-int {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+	}
+
+	.max {
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+}
+
+.nav-menu{
+    transition: all .3s ease-in-out;
+}
+
+.menu-icon {
+    transition: all .3s ease-in-out;
+}
+.menu-icon > span{
+    width: 21px;
+    height: 2px;
+    background-color: #9A8056;
+    transition: all .2s ease-in-out;
+}
+.menu-icon::before, .menu-icon::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 21px;
+    height: 2px;
+    background-color: #9A8056;
+    transition: all .3s ease-in-out;
+}
+.menu-icon::before{
+    transform: translateY(calc(50% - 8px));
+}
+.menu-icon::after{
+    transform: translateY(calc(50% + 4px));
+}
+
+#menu-toggler:checked + label {
+    background-color: #AB5F39;
+}
+#menu-toggler:checked + label::before{
+    transform:rotate(45deg) translate(4px, 4px);
+    background-color: white;
+}
+#menu-toggler:checked + label::after{
+    transform: rotate(135deg) translate(4px, -4px);
+    background-color: white;
+}
+#menu-toggler:checked + label > span {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+#menu-toggler:checked ~ .nav-menu{
+    transform: translateX(-100%);
+}

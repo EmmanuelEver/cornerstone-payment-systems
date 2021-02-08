@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About Us | Cornerstone Payment Solutions</title>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+	</head>
+	<body>
+		<header class="w-full h-14 fixed z-40 md:h-24 shadow-md md:shadow-none md:relative bg-white">
+			<div class="nav-wrapper h-full pl-5 max-w-screen-xxl mx-auto flex items-center justify-between md:px-10 lg:px-20 xxl:px-56">
+				<a href="index.html" class="nav-brand w-48">
+					<img class="w-full object-contain" src="./assets/images/logo-dark.png" alt="Cornerstone payment systems">
+				</a>
+	
+				<nav class="hidden items-center md:flex">
+					<ul class="flex items-center">
+						<li class="ml-3 lg:ml-5 xl:ml-7"><a class="uppercase text-secondary-300 md:text-sm lg:text-base font-bold" href="about.html">ABOUT</a></li>
+						<li class="ml-3 lg:ml-5 xl:ml-7"><a class="uppercase text-secondary-300 md:text-sm lg:text-base" href="solutions.html">SOLUTIONS</a></li>
+						<li class="ml-3 lg:ml-5 xl:ml-7"><a class="uppercase text-secondary-300 md:text-sm lg:text-base" href="team.html">OUR TEAM</a></li>
+						<li class="ml-3 lg:ml-5 xl:ml-7"><a class="uppercase text-secondary-300 md:text-sm lg:text-base" href="contact.html">CONTACT</a></li>
+					</ul>
+					<div class="nav-cta ml-3 lg:ml-5 xl:ml-7">
+						<button class="text-white toggle-modal font-bold px-6 py-3 lg:px-7 lg:py-4 bg-primary rounded md:text-sm lg:text-base transition-all ease-in-out hover:opacity-80 focus:scale-90">INQUIRE NOW</button>
+					</div>
+				</nav>
+	
+				<div class="mobile-nav w-16 h-full box-content flex items-center justify-center md:hidden">
+					<input class="hidden" type="checkbox" id="menu-toggler">
+					<label class="menu-icon relative w-full h-full flex items-center justify-center " for="menu-toggler">
+						<span class="bg-primary"></span>
+					</label>
+					<div class="nav-menu fixed top-14 overflow-y-auto pb-14 text-center -right-full transform translate-x-0 w-full h-screen pt-12 px-9 z-20 bg-primary flex flex-col items-center ">
+						<button class="w-full py-5 bg-white rounded text-primary font-bold toggle-modal">INQUIRE NOW</button>
+						<ul class="list-none flex flex-col items-center mt-7">
+							<li class="mb-9"><a class="text-white uppercase text-center leading-none text-2xl" href="index.html">HOME</a></li>
+							<li class="mb-9"><a class="text-white uppercase text-center leading-none text-2xl" href="about.html">ABOUT</a></li>
+							<li class="mb-9"><a class="text-white uppercase text-center leading-none text-2xl" href="solutions.html">SOLUTIONS</a></li>
+							<li class="mb-9"><a class="text-white uppercase text-center leading-none text-2xl" href="team.html">OUR TEAM</a></li>
+							<li class="mb-9"><a class="text-white uppercase text-center leading-none text-2xl" href="contact.html">CONTACT</a></li>
+						</ul>
+						<div class="divider w-full border-b border-white mb-12"></div>
+	
+						<ul class="list-none flex flex-col items-center">
+							<li class="mb-9"><a class="text-white uppercase text-center leading-none text-2xl" href="privacy-policy.html">PRIVACY POLICY</a></li>
+							<li class="mb-9"><a class="text-white uppercase text-center leading-none text-2xl" href="ss.html">SECURITY SUBMISSION</a></li>
+							<li class="mb-9"><a class="text-white uppercase text-center leading-none text-2xl" href="integrations.html">Integrations</a></li>
+							<li class="mb-9"><a class="text-white uppercase text-center leading-none text-2xl" href="faqs.html">FAQS</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="backdrop fixed top-14 md:top-0 left-0 z-40 w-screen h-screen hidden bg-secondary-100 opacity-90"></div>
+		<div class="modal-wrapper rounded fixed z-50 top-14 right-1/2 transform -translate-x-full transition-all w-full  overflow-y-auto  max-h-screen md:top-1/2 md:-translate-y-1/2 md:max-w-screen-sm xl:max-w-screen-lg">
+			<div class="modal w-full pt-20 pb-20 md:pb-24 px-9 md:px-20  xxl:px-44 bg-white relative">
+				<span class="absolute right-5 top-4 cursor-pointer" id="close-modal">
+					<svg class="w-7 h-7 fill-current text-black" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</span>
+				<div class="modal-header text-center max-w-md mx-auto">
+					<h2 class="text-black text-2xl font-bold">Thank you for your interest!</h2>
+					<p class="mt-4 text-base text-secondary-100">Please provide your current information in the fields listed below. Once you have completed the form click on the button at the bottom and a Cornerstone representative will contact you within 24 hours on a business day.</p>
+				</div>
+				<div class="modal-body mt-7">
+					<form class="form flex flex-wrap w-full">
+						<div class="form-wrapper mb-3 w-full md:w-1/2 md:px-4 flex flex-col items-start">
+							<label for="firstName" class="text-secondary-600 text-base font-bold"> First Name</label>
+							<input type="text" id="firstName" name="firstName" placeholder="Your first name here" class="w-full mt-2 p-3 text-base border border-secondary-800 placeholder-secondary-700 focus:border-secondary-700 focus:shadow-md transition-shadow outline-none">
+						</div>
+
+						<div class="form-wrapper mb-3 w-full md:w-1/2 md:px-4 flex flex-col items-start">
+							<label for="lastName" class="text-secondary-600 text-base font-bold"> Last Name</label>
+							<input type="text" id="lastName" name="lastName" placeholder="Your last name here" class="w-full mt-2 p-3 text-base border border-secondary-800 placeholder-secondary-700 focus:border-secondary-700 focus:shadow-md transition-shadow outline-none">
+						</div>
+
+						<div class="form-wrapper mb-3 w-full md:w-1/2 md:px-4 flex flex-col items-start">
+							<label for="contactNumber" class="text-secondary-600 text-base font-bold"> Contact Number</label>
+							<input type="tel" id="contactNumber" name="contactNumber" placeholder="" class="w-full mt-2 p-3 text-base border border-secondary-800 placeholder-secondary-700 focus:border-secondary-700 focus:shadow-md transition-shadow outline-none">
+						</div>
+
+						<div class="form-wrapper mb-3 w-full md:w-1/2 md:px-4 flex flex-col items-start">
+							<label for="email" class="text-secondary-600 text-base font-bold">Email Address</label>
+							<input type="email" id="email" name="email" placeholder="your@email.com" class="w-full mt-2 p-3 text-base border border-secondary-800 placeholder-secondary-700 focus:border-secondary-700 focus:shadow-md transition-shadow outline-none">
+						</div>
+						<div class="form-wrapper mb-3 w-full flex flex-col items-start md:px-4">
+							<label for="businessName" class="text-secondary-600 text-base font-bold">Business Name</label>
+							<input type="text" id="businessName" name="businessName" placeholder="" class="w-full mt-2 p-3 text-base border border-secondary-800 placeholder-secondary-700 focus:border-secondary-700 focus:shadow-md transition-shadow outline-none">
+						</div>
+						<button type="submit" class="px-12 py-4 mt-12 bg-primary text-white font-bold mx-auto transition-all ease-in-out hover:opacity-80">SUBMIT</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<main class="font-primary pt-14 md:pt-0">
+            <section class="hero-wrapper bg-secondary-50 w-full pt-12 md:pt-0">
+                <div class="hero relative w-full max-w-screen-xxl mx-auto md:px-10 lg:px-20 xxl:px-56">
+                   <div class="hero-content px-9 bg-transparent md:w-96 lg:w-auto max-w-lg md:px-0 md:relative md:z-10 md:py-20 xxl:py-28 ">
+                       <h1 class="font-bold text-2xl md:text-3xl lg:text-3.5xl">
+                            The foundation of your <br>  busniess since 2001
+                       </h1>
+   
+                       <p class="text-base text-secondary-100 mt-5 md:text-lg  md:pr-12 lg:pr-11">
+                        Cornerstone is one of the nation's leading Christian owned and operated independent sales organizations in the merchant processing industry. We have a commitment to separate our transaction processing services from the remainder of the industry. We do this by putting Christ at the cornerstone of our business. As a part of our commitment we will not process credit card transactions for morally objectionable businesses. We are blessed to serve leading ministries and businesses across the US. Talk to us about how we can serve your business or ministry.
+                       </p>
+                   </div>
+                   <div class="w-full h-72 bg-bottom md:bg-right-bottom bg-contain bg-no-repeat bg-about-hero-sm md:bg-about-hero md:absolute top-0 left-0 md:h-full md:translate-x-24 md:transform xl:transform-none">
+                   </div>
+                </div>
+           </section>
+
+			<section class="bg-quad py-12">
+				<div class="text-white text-center  max-w-3xl w-5/6 mx-auto">
+					<p>
+						Cornerstone offers a full compliment of merchant processing
+						services for our clients. Through our Cornerstone Payment
+						Systems Network, we authorize and settle transactions for all
+						major credit cards.
+					</p>
+				</div>
+			</section>
+
+			<section class="py-20">
+				<div class="text-center  max-w-3xl mx-auto">
+					<p class="text-lg w-5/6 mb-10 mx-auto text-secondary-100">
+						Whether your business is traditional retail, online, home based, a non-profit organization or ministry focused in the United States or Canada, Cornerstone Payment Systems will provide a processing solution that is right for you.
+					</p>
+				</div>
+			</section>
+		</main>
+		<footer class="w-full bg-secondary-300">
+			<div class="footer-wrapper max-w-screen-xxl mx-auto py-16 px-9 flex flex-col items-center text-center">
+				<div class="footer-logo w-48">
+					<img class="w-full object-contain" src="./assets/images/logo-light.png" alt="">
+				</div>
+				<div class="footer-contact text-white mt-8">
+					(888) 506-0208
+					<br>
+					info@cornerstone.cc
+				</div>
+				<div class="footer-socmed flex items-center justify-center mt-4">
+					<a class="w-7 h-7 mr-1" href="#">
+						<img src="./assets/images/sm-fb.png" alt="" srcset="">
+					</a>
+					<a class="w-7 h-7 ml-1 mr-1" href="#">
+						<img src="./assets/images/sm-twitter.png" alt="" srcset="">
+					</a>
+					<a class="w-7 h-7 ml-1 mr-1" href="#">
+						<img src="./assets/images/sm-li.png" alt="" srcset="">
+					</a>
+					<a class="w-7 h-7 ml-1" href="#">
+						<img src="./assets/images/sm-ig.png" alt="" srcset="">
+					</a>
+				</div>
+				<div class="terms hidden md:flex md:items-center md:mt-10">
+					<a href="privacy-policy.html" class="text-xl text-white hover:underline">Privacy Policy</a>
+					<span class="divider mx-4 h-5 w-px bg-white"></span>
+					<a href="" class="text-xl text-white hover:underline">Security Submission</a>
+					<span class="divider mx-4 h-5 w-px bg-white"></span>
+					<a href="integrations.html" class="text-xl text-white hover:underline">Integrations</a>
+					<span class="divider mx-4 h-5 w-px bg-white"></span>
+					<a href="faqs.html" class="text-xl text-white hover:underline">FAQs</a>
+				</div>
+				<div class="footer-text mt-8 max-w-screen-md">
+					<p class="text-secondary-200 text-base">
+						Cornerstone West Inc. is a registered ISO of Deutsche Bank, USA, New York, NY.
+					</p>
+					<br>
+					<p class="text-secondary-200 text-base">
+						The Clover trademark and logo are owned by Clover Network, Inc., a First Data company. All other trademarks, service marks and trade names referenced in this material are the property of their respective owners.
+					</p>
+				</div>
+			</div>
+		</footer>
+		<script src="./assets/js/modal.js"></script>
+	</body>
+</html>
